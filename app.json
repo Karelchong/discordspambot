@@ -1,0 +1,13 @@
+{
+  "buildpacks": [
+    {
+      "url": "https://github.com/Karelchong/discordspambot"
+    },
+    {
+      "url": "heroku/python"
+    }
+    {
+      "description": "This app does one little thing, and does it well."
+    }
+  ]
+}
