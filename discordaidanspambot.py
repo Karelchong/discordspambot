@@ -27,7 +27,7 @@ bot = commands.Bot(command_prefix="~")
 #webhookb = Webhook.partial(909838462910365716, 'JfkW2URY-44ZzbsCGqMXv4NfwPivC7VsEI8eD4EHLczWq7P4pU3db48gEjL7WhMlzpo2', adapter=RequestsWebhookAdapter())
 webhookb = Webhook.partial(909844723404009532, 'tHkR-cZDlCG6y2VhnlDQX8VF22X0d3ZYhJ4FVlSFAV5fvt4jx5FOoSRFEbjgXxTefA1s', adapter=RequestsWebhookAdapter())
 #De loop
-@tasks.loop(hours=24)
+@tasks.loop(seconds=24)
 async def spammer():
 
     #Bij dat <@> ding moet aidans discord id daartussen zodat die gepingt word en je kan ook nog de username aanpassen
