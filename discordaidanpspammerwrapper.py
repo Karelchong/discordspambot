@@ -3,7 +3,7 @@ import discordaidanspambot
 
 app = Flask(__name__)
 
-@app.route('/<name>')
+@app.route('/')
 def dynamic_page():
     discordaidanspammer.runner()
     return "Hij is aangezet"
