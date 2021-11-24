@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": "python3 discordaidanspammerwrapperaanzetter.py"
+    "install": "pip install discord.py requests flask"
+  }
+}
