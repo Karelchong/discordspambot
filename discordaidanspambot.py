@@ -24,7 +24,7 @@ def runner():
     webhookn2 = os.getenv("WEBHOOK_KEY2")
     webhookl2 = os.getenv("WEBHOOK_SECRET2")
     bot = commands.Bot(command_prefix="~")
-    #Webhook link als je dat wilt moet je naar channel instellingen en dan integraties webhooks en dan nieuwe webhook en doe je webhooklink kopiëren
+    #Webhook link als je dat wilt moet je naar channel instellingen en dan integraties webhooks en dan nieuwe webhook en doe je webhooklink kopiëren b
     webhookb = Webhook.partial(webhookn, webhookl, adapter=RequestsWebhookAdapter())
     webhookc = Webhook.partial(webhookn2, webhookl2, adapter=RequestsWebhookAdapter())
     #De loop
